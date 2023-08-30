@@ -1,0 +1,2 @@
+python -u main.py --seed 0 --anormly_ratio 1 --num_epochs 1   --batch_size 128  --mode train --dataset SWAT  --data_path /data/dkgud111/Cludformer/AD_datasets/SWAT --input_c 51    --output_c 51
+python -u main.py --seed 0 --anormly_ratio 1  --num_epochs 1      --batch_size 128     --mode test    --dataset SWAT   --data_path /data/dkgud111/Cludformer/AD_datasets/SWAT  --input_c 51    --output_c 51  --pretrained_model 20

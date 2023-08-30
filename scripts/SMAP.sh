@@ -1,0 +1,2 @@
+python -u main.py --seed 0 --anormly_ratio 1 --num_epochs 1   --batch_size 128  --mode train --dataset SMAP  --data_path /data/dkgud111/Cludformer/AD_datasets/SMAP --input_c 25    --output_c 25
+python -u main.py --seed 0 --anormly_ratio 1  --num_epochs 1        --batch_size 128     --mode test    --dataset SMAP   --data_path /data/dkgud111/Cludformer/AD_datasets/SMAP  --input_c 25    --output_c 25  --pretrained_model 20
